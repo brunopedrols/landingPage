@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@1,600&family=Montserrat&family=Open+Sans+Condensed:wght@300&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@1,600&family=Montserrat&family=Open+Sans+Condensed:wght@300&family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.Imagem-principal {
+    height: 72px;
+}
+
+.cabeçalho-nav {
+    display: flex;
+    gap: 34px;
+}
+
+.cabeçalho-text {
+    font-family: 'sarala', sans-serif;
+    color:aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteúdo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.conteúdo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.conteúdo-principal-escrito {
+    display:flex;
+    flex-direction:column;
+    gap:32px;
+}
+
+.text-primary {
+    font-family:'righteous', sans-serif ;
+    font-weight:400;
+    font-size:64px;
+    color:#fff2e7
+}
+
+.text-secondary {
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+}
+
+.button {
+    background-color: #eccec7;
+    width:180px;
+    height:67px;
+    border:none;
+    box-shadow: 4px 5 px 4px rgb(46, 43, 43);
+    border-radius: 20px;
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #e69f66;
+}
+
+.button:hover {
+    background-color: rgba(112, 107, 107);
+
+}
+
+.imagem-center {
+    height: 450px;
+    transform: translateY(0px);
+    animation:float 5s ease-in-out infinite;
+
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+    
+}
+
+.sub-secondary {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap:24px;
+    margin-top: 48px;
+}
+
+.sub-text {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family:'righteous', sans-serif;
+    font-weight: 400;
+    font-size:24px;
+    color: #fff2e7;
+    margin-bottom:26px;
+}
+
+.sub-text1{
+    font-family: 'sarala', sans-serif;
+    font-size:18px;
+    font-weight: 300;
+    color:#fff2e7
+}
+
+.final {
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.imagem-end {
+    display: block;
+    height:48px;
+    margin: 0 auto;
+}
